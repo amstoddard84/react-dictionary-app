@@ -1,3 +1,4 @@
 .Dictionary {
-  background: blue;
+  background: var(--text-color);
+  color: #ffffff;
 }

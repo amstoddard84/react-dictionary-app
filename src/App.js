@@ -15,7 +15,8 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Hand-coded by Anne Marie Robson</footer>
+        <footer className="text-center">Hand-coded by Anne Marie Robson. 
+        View <i class="fab fa-github"></i> <a class="footer-link" href="https://github.com/amstoddard84/react-dictionary-app">GitHub repository</a></footer>
       </div>
     </div>
   );

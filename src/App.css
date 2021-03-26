@@ -1,5 +1,12 @@
+:root {
+  --text-color: #8f43a9;
+  --secondary-color: #f0facc;
+  --accent-color: #2ea14a;
+  --alt-text: #000000;
+}
+
 header {
-  color: #8f43a9;
+  color: var(--text-color);
   font-family: "Arsenal", sans-serif;
   font-weight: 700;
   text-align: center;
@@ -8,9 +15,16 @@ h1 {
   font-size: 48px;
 }
 body {
-  background-color: #f0facc;
+  background-color: var(--secondary-color);
 }
 img {
   max-width: 125px;
   max-height: 125px;
+}
+.footer-link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.footer-link:hover {
+  color: var(--accent-color);
 }
