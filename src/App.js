@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.png";
+import "./App.css";
+import Dictionary from "./Dictionary";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <header className="App-header">
+          <img src={logo} className="header-logo img-fluid" alt="logo" />
+          <h1>
+            <i>Define It!</i> App
+          </h1>
+        </header>
+        <main>
+          <Dictionary />
+        </main>
+        <footer className="text-center">Hand-coded by Anne Marie Robson</footer>
+      </div>
     </div>
   );
 }
-
-export default App;
