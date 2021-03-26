@@ -9,13 +9,14 @@ export default function App() {
         <header className="App-header">
           <img src={logo} className="header-logo img-fluid" alt="logo" />
           <h1>
-            <i>Define It!</i> App
+            <i>Define It!</i> 
           </h1>
+          <h2>Your friendly neighborhood dictionary app</h2>
         </header>
         <main>
           <Dictionary />
         </main>
-        <footer className="text-center">Hand-coded by Anne Marie Robson. 
+        <footer className="text-center">Hand-coded by <a class="footer-link" href="https://www.annemarierobson.com/">Anne Marie Robson</a>.
         View <i class="fab fa-github"></i> <a class="footer-link" href="https://github.com/amstoddard84/react-dictionary-app">GitHub repository</a></footer>
       </div>
     </div>
