@@ -1,7 +1,6 @@
 import logo from "./logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
-import Definition from "./Results";
 
 export default function App() {
   return (
