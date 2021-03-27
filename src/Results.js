@@ -1,15 +1,15 @@
 import React from "react";
 import "./App.css";
 
-export default function Definition (props) {
+export default function Results (props) {
     if (props.definition) {
     return ( 
-        <div className="Definition">
+        <div className="Results">
         <section>
 <h2>Here's what we found:</h2>
 <h3>{props.definition.word}</h3>
 {props.definition.meanings.map(function(meaning, index) {
-return meaning.definition[0] 
+return meaning.definitions[0].definition; 
 })}
         </section>
         </div>);
