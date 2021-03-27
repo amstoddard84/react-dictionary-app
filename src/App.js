@@ -14,8 +14,10 @@ export default function App() {
           </h1>
           <h2>Your friendly neighborhood dictionary app</h2>
         </header>
+        <hr></hr>
         <main>
           <Dictionary />
+          <hr></hr>
           <Definition />
         </main>
         <footer className="text-center">Hand-coded by <a class="footer-link" href="https://www.annemarierobson.com/">Anne Marie Robson</a>.
