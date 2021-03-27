@@ -17,6 +17,8 @@ h1 {
 h2 {
   color: var(--body-text);
   font-size: 26px;
+  font-family: "Raleway", sans-serif;
+  font-weight: bolder;
 }
 body {
   background-color: var(--secondary-color);
@@ -24,6 +26,9 @@ body {
 img {
   max-width: 125px;
   max-height: 125px;
+}
+section {
+  text-align: center;
 }
 .footer-link {
   text-decoration: none;

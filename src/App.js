@@ -1,6 +1,7 @@
 import logo from "./logo.png";
 import "./App.css";
 import Dictionary from "./Dictionary";
+import Definition from "./Definition";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
         </header>
         <main>
           <Dictionary />
+          <Definition />
         </main>
         <footer className="text-center">Hand-coded by <a class="footer-link" href="https://www.annemarierobson.com/">Anne Marie Robson</a>.
         View <i class="fab fa-github"></i> <a class="footer-link" href="https://github.com/amstoddard84/react-dictionary-app">GitHub repository</a></footer>

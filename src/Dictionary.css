@@ -1,4 +1,9 @@
 .Dictionary {
-  background: var(--text-color);
-  color: #ffffff;
+  background: var(--secondary-color);
+  color: var(--accent-color);
+  text-align: center;
+  font-family: "Arsenal", sans-serif;
+}
+section {
+  padding: 20px;
 }
