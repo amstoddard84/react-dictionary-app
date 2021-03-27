@@ -46,6 +46,10 @@ button {
   font-weight: bolder;
 }
 
+footer {
+  padding-top: 20px;
+}
+
 .footer-link {
   text-decoration: none;
   color: var(--text-color);
