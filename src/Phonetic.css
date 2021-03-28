@@ -1,0 +1,7 @@
+.audio-link {
+  text-decoration: none;
+  color: var(--text-color);
+}
+.audio-link:hover {
+  color: var(--accent-color);
+}
