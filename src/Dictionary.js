@@ -28,7 +28,7 @@ export default function Dictionary() {
     return ( 
         <div className="Dictionary">
         <section>
-<h1 class="lookup-prompt">What word do you want to look up today?</h1>
+<h1 class="lookup-prompt">Hey, you! Pick a word...any word.</h1>
 <form onSubmit={search}>
     <input type="search" 
     onChange= {handleKeywordChange} />
