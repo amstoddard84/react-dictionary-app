@@ -5,3 +5,7 @@
 .audio-link:hover {
   color: var(--accent-color);
 }
+.Phonetic {
+  color: var(--body-text);
+  font-weight: bolder;
+}

@@ -1,0 +1,27 @@
+.Meaning {
+  padding: 25px;
+  background-color: white;
+  margin: 20px;
+  text-align: center;
+}
+
+.part-of-speech {
+  color: var(--accent-color);
+  font-size: 30px;
+  font-family: "Raleway", sans serif;
+  font-weight: bolder;
+}
+.definition {
+  display: block;
+  color: var(--body-text);
+  font-family: "Arsenal", sans-serif;
+  line-height: 2;
+}
+.example {
+  text-align: center;
+  color: var(--text-color);
+  font-family: "Arsenal", sans-serif;
+  font-size: 12px;
+  font-weight: bolder;
+  font-style: italic;
+}
