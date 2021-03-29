@@ -7,7 +7,10 @@ h3 {
   color: var(--body-text);
   text-align: left;
 }
-
+.synonym-list {
+  box-shadow: none !important;
+  padding-bottom: 0px !important;
+}
 li {
   font-size: 13px;
   font-family: "Arsenal", sans-serif;
