@@ -1,8 +1,11 @@
 .Dictionary {
   background: var(--secondary-color);
-  color: var(--accent-color);
+  color: var(--body-text);
   text-align: center;
   font-family: "Arsenal", sans-serif;
+}
+.lookup-prompt {
+  color: var(--text-color);
 }
 section {
   padding: 20px;

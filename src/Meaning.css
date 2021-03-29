@@ -1,8 +1,9 @@
 .Meaning {
+  display: block;
   padding: 25px;
   background-color: white;
   margin: 20px;
-  text-align: center;
+  text-align: left;
 }
 
 .part-of-speech {
@@ -18,8 +19,8 @@
   line-height: 2;
 }
 .example {
-  text-align: center;
-  color: var(--text-color);
+  display: block;
+  color: var(--body-text);
   font-family: "Arsenal", sans-serif;
   font-size: 12px;
   font-weight: bolder;

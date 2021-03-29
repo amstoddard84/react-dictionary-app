@@ -33,6 +33,7 @@ export default function Dictionary() {
     <input type="search" 
     onChange= {handleKeywordChange} />
 </form>
+<small className="suggestions">examples: pumpkin, coffee, hiking</small>
         </section>
           <Results results={results} />
         </div>
