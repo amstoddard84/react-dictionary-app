@@ -1,9 +1,10 @@
 .Meaning {
-  display: block;
-  padding: 25px;
   background-color: white;
-  margin: 20px;
   text-align: left;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 5px 5px 5px rgba (0 0 0 / 10%);
+  margin: 20px 0;
 }
 
 .part-of-speech {

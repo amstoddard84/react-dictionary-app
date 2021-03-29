@@ -1,8 +1,12 @@
-.Dictionary {
-  background: var(--secondary-color);
+.Dictionary section {
+  background: #ffffff;
   color: var(--body-text);
   text-align: center;
   font-family: "Arsenal", sans-serif;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 5px 5px 5px rgba (0 0 0 / 10%);
+  margin: 20px 0;
 }
 .lookup-prompt {
   color: var(--text-color);
