@@ -43,6 +43,7 @@ section {
 .word {
   font-size: 40px;
   font-family: "Arsenal", sans-serif;
+  color: var(--text-color);
 }
 
 footer {
